@@ -1,0 +1,13 @@
+image_width: 720
+image_height: 540
+camera_name: camy
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [306.228913863, 0.0, 358.167038396, 0.0, 306.231426616, 279.749269371, 0.0, 0.0, 1.0]
+distortion_model: equidistant
+distortion_coefficients:
+  rows: 1
+  cols: 4
+  data: [0.0241280382808, 0.000389730376415, 0.00548443146733, -0.000437178434267]
+

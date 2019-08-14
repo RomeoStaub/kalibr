@@ -1,0 +1,44 @@
+###### Camera Calibration File For Cam 0 of Dataset ######
+image_width: 1440
+image_height: 1080
+camera_name: cam0
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [615.3483602615959, 0.0, 722.6030303539713, 0.0, 615.7788238579407, 559.3938260066852, 0.0, 0.0, 1.0]
+distortion_model: equidistant
+distortion_coefficients:
+  rows: 1
+  cols: 4
+  data: [0.00724234711283763, 0.034886170986066924, -0.023451860903234357, 0.008058878937190395]
+
+
+
+#image_width: 1440
+#image_height: 1080
+#camera_name: Camera0
+#camera_matrix:
+#  rows: 3
+#  cols: 3
+#  data: [615.3483602615959, 0.0, 722.6030303539713, 0.0, 615.7788238579407, 559.3938260066852, 0.0, 0.0, 1.0]
+#distortion_model: equidistant
+#distortion_coefficients:
+#  rows: 1
+#  cols: 4
+#  data:  [0.00724234711283763, 0.034886170986066924, -0.023451860903234357, 0.008058878937190395]
+
+###### Original Calibration File ######
+#camera0:
+#  T_cam_imu:
+#  - [0.0035726484837122485, -0.002539944973208694, 0.9999903923850193, 0.022456306475484626]
+#  - [-0.0035577482428870936, -0.9999904777113149, -0.0025272344839499215, -0.0038929493696192845]
+#  - [0.9999872892243442, -0.003548685140964709, -0.003581650948687398, -0.036083837064249204]
+#  - [0.0, 0.0, 0.0, 1.0]
+#  cam_overlaps: []
+#  camera_model: pinhole
+#  distortion_coeffs: [0.00724234711283763, 0.034886170986066924, -0.023451860903234357, 0.008058878937190395]
+#  distortion_model: equidistant
+#  intrinsics: [615.3483602615959, 615.7788238579407, 722.6030303539713, 559.3938260066852]
+#  resolution: [1440, 1080]
+#  rostopic: /blackfly/image_raw
+#  timeshift_cam_imu: 0.0002529542691947281

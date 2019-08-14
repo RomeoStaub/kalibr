@@ -1,0 +1,7 @@
+rostopic: /xsensmt_head/imu
+update_rate: 200.0 #Hz
+
+accelerometer_noise_density: 0.008 #continous
+accelerometer_random_walk: 0.0002 
+gyroscope_noise_density: 0.0002 #continous
+gyroscope_random_walk: 4.0e-06

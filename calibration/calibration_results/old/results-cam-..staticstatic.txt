@@ -1,0 +1,20 @@
+Calibration results 
+====================
+Camera-system parameters:
+	cam0 (/blackfly/image_raw):
+	 type: <class 'aslam_cv.libaslam_cv_python.EquidistantDistortedPinholeCameraGeometry'>
+	 distortion: [ 0.02786278 -0.00799519  0.01317642 -0.00290014] +- [0.00596414 0.01443172 0.01408187 0.00472212]
+	 projection: [305.94701243 305.92550169 358.19884465 280.09937902] +- [0.73616024 0.70718477 0.36377005 0.35576042]
+	 reprojection error: [-0.000000, 0.000000] +- [0.134887, 0.142349]
+
+
+
+Target configuration
+====================
+
+  Type: aprilgrid
+  Tags: 
+    Rows: 6
+    Cols: 6
+    Size: 0.083 [m]
+    Spacing 0.0249 [m]
